@@ -13,12 +13,6 @@ body {
     margin: 0.625rem auto 1.875rem auto;
 }
 
-.bayan-img-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .bayan article {
     background: rgba(255, 255, 255, 0.5);
     overflow: hidden;
