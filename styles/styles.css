@@ -28,9 +28,16 @@ body {
 }
 
 .bayan article img {
-    padding: 1.25rem;
-    width: cover;
+    padding: 0.625rem 0;
+    width: 90%;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.bayan article img:active {
+    .bayan article {
+        display: none;
+    }
 }
 
 .bayan input {
