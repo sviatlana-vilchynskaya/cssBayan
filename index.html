@@ -8,23 +8,27 @@
         <link rel="stylesheet" href="./styles/styles.css" />
     </head>
     <body>
-        <div class="bayan">
-            <div class="bayan-item">
-                <div class="bayan-title" for="bayan_1">List one</div>
-                <input
-                    type="radio"
-                    class="bayan-input"
-                    name="bayan"
-                    id="bayan_1"
-                />
-                <p class="bayan-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates tempore, placeat esse vitae ullam culpa ea iure
-                    minus earum doloribus quisquam laboriosam reiciendis
-                    quibusdam voluptatibus dignissimos commodi soluta? Magni,
-                    ad?
-                </p>
+        <section class="bayan">
+            <div>
+                <input id="bayan-1" name="bayan-1" type="checkbox" checked />
+
+                <label for="bayan-1">Мем про котиков</label>
+
+                <article class="bayan-large">
+                    <div class="bayan-img-container">
+                        <img src="./assets/images/cats.jpg" alt="cat" />
+                    </div>
+                </article>
             </div>
-        </div>
+
+            <div>
+                <input id="bayan-2" name="bayan-1" type="checkbox" />
+
+                <label for="bayan-2"> Когда дедлайн сегодня.</label>
+                <article class="bayan-large">
+                    <img src="./assets/images/dedline.jpg" alt="dedline" />
+                </article>
+            </div>
+        </section>
     </body>
 </html>
